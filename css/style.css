@@ -1,0 +1,105 @@
+html{
+	overflow: hidden;
+}
+header{
+	display:block;
+	margin: 0 auto;
+	text-align:center;
+	width:100%;
+}    
+header>input{
+	font-size: 20px;
+	color:white;
+	background-color: #605546;
+	width:105px;
+	height:40px;
+	position:relative;
+	top:-10px;
+	border-radius: 10px;
+	border: 0;
+	padding: 5px 5px;
+}
+form{
+	position: relative;
+	left: 38px;
+	top: -10px;
+}
+label{
+	font-size: 25px;
+}
+label>input{
+	border: 0;
+	width:100px;
+	font-size: 20px;
+	/*font-size: 25px;*/
+}
+table{
+	margin: 0 auto;
+	background-color: #bbada0;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative
+}
+tr{
+	margin: 0;
+}
+td{
+	width: 100px;
+	border-style: none;
+	height: 100px;
+	float:left;
+	padding-top: 1px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+p{
+	text-align: center;
+	line-height: 100px;
+	font-size: 2em;
+	height: 100%;
+	width: 100%;
+	margin:0;
+	border-radius: 10px;
+	/*font-family: */
+}
+#result{
+	display: inline;
+	font-size: 1em;
+}
+
+/*css 的引入方式
+
+1.行内样式
+
+<div id="div1" style="width:100px; height:100px; background:red"></div>
+
+2.内嵌(写在head标签内)
+
+<head>
+
+　　     <style>
+
+　　　　　　　　   #div1{
+
+　　　　　　　　　　　　width:100px;
+
+　　　　　　　　　　　　height:100px;
+
+background:red;
+
+}
+
+</style>
+
+</head>
+
+3.外联
+
+<head>
+
+　　　　　　<link rel="stylesheet" href="comment.css">
+
+</head>
+
+css我们通常放在head标签里，
+原因是html自上而下的加载顺序问题，先加载样式，再加载html。*/
